@@ -1,0 +1,67 @@
+
+.mesas{
+    margin-top: -550px;
+    margin-left: 25px;
+}
+
+.mesa{
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    color: var(--texto);
+    background-color: var(--bg_mesas);
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.mesa:hover{
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+    color: var(--texto);
+    background-color: var(--pagar);
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.titulo_mesa{
+    position: absolute;
+    width: 194px;
+    height: 48px;
+    left: calc(50% - 194px/2);
+    top: 150px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    /* identical to box height */
+    text-align: center;
+    color: var(--texto);
+}
+
+.continuar{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    color: var(--texto);
+    background-color: var(--principal);
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    margin: 0 auto;
+}
+
+.button_continuar a{
+    text-decoration: none;
+}
