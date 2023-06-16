@@ -1,0 +1,244 @@
+/*Menu mesas*/
+
+.menu{
+    position: absolute;
+    width: 194px;
+    height: 48px;
+    left: calc(50% - 194px/2);
+    top: 254px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+
+    text-align: center;
+    color: var(--texto);
+    
+   
+}
+
+.menu a{
+    text-decoration: none;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    text-align: center;
+    color: var(--texto);
+   
+}
+
+/*********************************************************/
+
+/*Pratos geral*/
+
+
+.pratos{
+    display: flex;
+    margin-top: -500px;
+    
+}
+
+.foto_pratos{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 27px;
+  
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.nome_pratos{
+    position: absolute;
+    width: 130px;
+    height: 26px;
+    left: 138px;
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--texto_menu)
+}
+.descritivo_pratos{
+    position: absolute;
+    width: 128px;
+    height: 71px;
+    left: 138px;
+  
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--texto_menu)
+
+}
+.preco_pratos{
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 280px;
+    top: 409px;
+    
+    font-family: 'Zilla Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--texto_menu)
+
+}
+
+/*********************************************************/
+
+/*ESPAÇAMENTO ENTRE PRATOS: + 150px em cada classe
+
+/*Prato 1 posições na tela*/
+
+
+.posicao_foto_prato1{
+    top: 332px;
+    
+}
+
+.posicao_nome_prato1{
+    top: 332px;
+}
+
+.posicao_descritivo_prato1{
+    top: 361px;
+}
+
+.posicao_preco_prato1{
+    top: 409px;
+}
+
+/*********************************************************/
+
+/*Prato 2 posições na tela*/
+
+.posicao_foto_prato2{
+   top: 482px;
+}
+.posicao_nome_prato2{
+  
+    top: 482px;
+  
+}
+.posicao_descritivo_prato2{
+  
+    top: 511px;
+  
+}
+.posicao_preco_prato2{
+   
+    top: 559px;
+    
+}
+
+/*********************************************************/
+
+/*Prato 3 posições na tela*/
+
+.posicao_foto_prato3{
+
+   top: 632px;
+    
+}
+.posicao_nome_prato3{
+  
+    top: 632px;
+  
+}
+.posicao_descritivo_prato3{
+  
+    top: 661px;
+  
+}
+.posicao_preco_prato3{
+   
+    top: 709px;
+    
+}
+
+/*********************************************************/
+
+/*Prato 4 posições na tela*/
+
+.posicao_foto_prato4{
+
+   top: 782px;
+    
+}
+.posicao_nome_prato4{
+  
+    top: 782px;
+  
+}
+.posicao_descritivo_prato4{
+  
+    top: 811px;
+  
+}
+.posicao_preco_prato4{
+   
+    top: 859px;
+    
+}
+
+/*********************************************************/
+
+/*Prato 5 posições na tela*/
+
+.posicao_foto_prato5{
+
+    top: 932px;
+     
+ }
+ .posicao_nome_prato5{
+   
+     top: 932px;
+   
+ }
+ .posicao_descritivo_prato5{
+   
+     top: 961px;
+   
+ }
+ .posicao_preco_prato5{
+    
+     top: 1009px;
+     
+ }
+
+ /*********************************************************/
+
+/*Prato 6 posições na tela*/
+
+.posicao_foto_prato6{
+
+    top: 1082px;
+     
+ }
+ .posicao_nome_prato6{
+   
+     top: 1082px;
+   
+ }
+ .posicao_descritivo_prato6{
+   
+     top: 1111px;
+   
+ }
+ .posicao_preco_prato6{
+    
+     top: 1159px;
+     
+ }

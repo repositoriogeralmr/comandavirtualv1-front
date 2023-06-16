@@ -1,0 +1,42 @@
+.mostarda{
+    background-repeat: no-repeat;
+    width: 100%;
+    object-fit: cover;
+ 
+}
+
+.comanda_header_barcode{
+    position: absolute;
+    left: 25%;
+    right: 21.6%;
+    top: 5%;
+    bottom: 63.53%;
+    font-family: 'Libre Barcode 128';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 35px;
+    
+    /* identical to box height */
+
+    text-align: center;
+    color: var(--texto);
+}
+
+.comanda_header_texto{
+    position: absolute;
+    left: 25%;
+    right: 21.6%;
+    top: 7%;
+    bottom: 63.53%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    
+    /* identical to box height */
+
+    text-align: center;
+    color: var(--texto)
+}
+
